@@ -16,7 +16,7 @@ public class Airplane extends Vehicle {
 	@Override
 
 	public String toString(){
-		return "[Airplace]" + super.toString() + " capacity =" + capacity;
+		return "[Airplane]" + super.toString() + " capacity =" + capacity;
 
 
 	}
