@@ -1,6 +1,6 @@
 package model.idemo;
 
-public class Vehicle {
+public abstract class  Vehicle  implements ISound{
 	
 
 	private int x;
@@ -37,6 +37,12 @@ public double getPrice(){
 public String toString(){
 	return "Vehicle at( " + x + "," + y + ") " +
 	make + " $ " + price;
+}
+
+@Override
+public String getSound() {
+	// TODO Auto-generated method stub
+	return null;
 }
 
 }

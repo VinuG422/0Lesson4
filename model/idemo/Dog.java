@@ -21,5 +21,11 @@ public String toString(){
 	return "[Dog] " + super.toString() + ", color = " + color;
 }
 
+@Override
+public String getSound() {
+	// TODO Auto-generated method stub
+	return "[Dog] woo ~~~fffff";
+}
+
 }
 

@@ -21,5 +21,10 @@ public class Airplane extends Vehicle {
 
 	}
 
+	@Override
+	public String getSound (){
+		return "[Airplane] sonic oo ~~~~m";
+
 	
+}
 }
